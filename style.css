@@ -83,14 +83,14 @@ html{
     align-items: center;
 }
 .inicio .fila .col{
-    width: 50%;
-    margin-top: 90px;
+    width: 100%;
+    margin-top: 150px;
     margin-left: 150px;
 }
 .inicio .fila .col h2 span{
     letter-spacing:-4rem;
     margin-left: 49px;
-    font-size: 60px;
+    font-size: 200px;
     color: #011e2f;
 }
 
@@ -107,35 +107,38 @@ h2 span:nth-child(10) { animation: lighting 1.5s 0.9s infinite; }
 h2 span:nth-child(11) { animation: lighting 1.5s 1s infinite; }
 h2 span:nth-child(12) { animation: lighting 1.5s 1.2s infinite; }
 
-.inicio .fila .col .p{
-    text-align: center;
-    font-size: 40px;
-    padding-left: 90px;
-}
-.inicio .fila .col .contenedor-img{
-    max-width: 400px;
-}
+
 .inicio .fila .col .contenedor-img img{
-    width: 100%;
     border-radius: 49%;
     filter:drop-shadow(0em 30px 20px #05263a)
 }
 .inicio .fila .col .animation-container span{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 50px 10px;
-    font-size: 35px;
+    font-size: 80px;
     filter:drop-shadow(0em 30px 20px #dfe5e9);
     opacity: 0;
-    animation: fadeIn 15s forwards;
+    animation: fadeIn 25s infinite;
+}
+.fila{
+    display: flex;
+    justify-content: center;
+}
+.caja{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
 }
 .inicio .fila .col .btn{
-    margin: 40px 275px;
-    width: fit-content;
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
     padding: 5px 20px;
     border: 2px solid #e87509;
     color: #ffffff;
     background: linear-gradient(to right,#e87509, #eaba8d);
-    transition: 0.5s;
+    
     cursor: pointer;
 }
 .inicio .fila .col button:hover{
