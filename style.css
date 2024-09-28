@@ -6,47 +6,55 @@
     box-sizing: border-box;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+    padding:  0 20px;
+}
 /* SECCION INICIO */
 
 .inicio{
     background:linear-gradient(to right, #02387a, #4a80b3);
     color: #ffffff;
-    height: 700px;
+    height: 95vh;
+    padding:  0 50px;
+}
+.inicio .contenido{
+    max-width:100%;
+    margin: auto;
+    color: #fff;
 }
 .inicio header{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 60px 0;
+    align-items: center;
 }
 .inicio .logo{
-    display: flex;bdfdf
+    display: flex;
     align-items: center;
-    color: #ffffff;
-    font-size: 25px;
-    margin-left: 50px;
+    color:  #fff;
+    font-size: 50px;
+    margin-left: 90px;
 }
 .inicio .logo img{
     margin-right: 30px;
     margin-left: 15px; 
-    width: 50px;
+    width: 150px;
     border-radius: 50%;
-}
-#inicio header nav{
-    margin-top: 20px;
 }
 #inicio header nav a{
     margin-top: auto;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 50px;
     text-decoration: none;
-    padding:10px;
+    padding:30px;
     text-transform: uppercase;
     }
 #inicio header nav a:hover{
     color: #e87509;
 } 
 #icono-nav{
-    font-size: 30px;
+    font-size: 60px;
     margin-top: auto;
     transition: 0.3s;
     cursor: pointer;
@@ -58,12 +66,11 @@
     transform: scale(2);
 }
 .inicio .redes a{
-    padding: 10px;
-    font-size: 30px;
+    padding: 30px;
+    font-size: 60px;
     transition: 0.3s;
     cursor: pointer;
     color: #ffffff;
-    cursor: pointer;
 }
 .inicio .redes a:hover{
     color: #e87509;
