@@ -151,14 +151,15 @@ h2 span:nth-child(12) { animation: lighting 1.5s 1.2s infinite; }
 /* SECCION SOBRE MI */
 
 .servicios{
-    max-width: 1100px;
-    margin-top: 100px;
+    max-width: 85%;
+    height: 100vh;
+    margin-top: 300px;
     margin-left:300px;
     position: relative;
     filter:drop-shadow(0em 30px 20px #0564a0);
 }
 .servicios p{
-    font-size: 20px;
+    font-size: 50px;
     text-align: justify;
     margin: auto -200px;
 }
