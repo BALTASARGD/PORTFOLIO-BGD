@@ -1,0 +1,26 @@
+body{background-image: url(./images/piramide.jfif);
+      background-repeat: no-repeat;
+    background-size: cover;}
+
+
+h1 {text-decoration: double;
+     color: rgb(8, 4, 118);
+     text-align: center;
+     padding: 50px;
+     background-image: url(./images/fondo.jfif);}
+
+section { border: 2px solid rgb(0, 0, 18);
+        border-radius: 25px;
+        background-color: lightblue;
+        width: 500px;
+        margin: 10px auto;
+        padding: 50px;
+        font-family: 'Style Script', cursive;
+        text-align: justify; 
+        font-family: 'Langar', cursive;}
+
+   
+img  {width: 100%;
+      border: 2px solid green ;
+      border-radius: 30px;}
+            

@@ -1,0 +1,16 @@
+body {background-color: rgb(255, 200, 127);}
+
+.tres {
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+    color: gray;
+    padding: 30px;}
+    
+
+p { font-family: 'Mansalva', cursive;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;}
+    
