@@ -180,62 +180,64 @@ h2 span:nth-child(12) { animation: lighting 1.5s 1.2s infinite; }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 700px;
+    justify-content: center;
+    height: 100vh;
     background: #fff;
-    font-size: 20px;
-    margin: 60px;
-    padding: 25px 25px 50px 50px;
     background: linear-gradient(145deg, #ffffff, #f0f0f0);
 }
 .box {
-    width: 600px;
-    max-height: 900px;
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 800px;
     text-align: center;
     line-height: 100px;
+    padding: 200px;
     opacity: 0;
-    transition: opacity 4s ease-in-out;
-    font-size: 25px;
-    animation: fadeInLeft 1s ease-in-out forwards;
+    transition: opacity 9s ease-in-out;
+    animation: fadeInLeft 2s ease-in-out forwards;
 } 
 .contenedor-intereses div{
     color: #02387a;
-    font-size: 50px;
-    padding: 10px;
+    font-size: 100px;
+    padding: 30px;
     margin-top: 10px;
     display: flex;
     filter:drop-shadow(0em 30px 20px #0564a0);
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .contenedor-intereses h3{
     color:#426895;
-    font-size: 40px;
+    font-size: 70px;
 }
 #intereses {
-    animation: fadeInRight 1s ease-in-out forwards;
+    animation: fadeInRight 2s ease-in-out forwards;
 }
 /* SECCION DE PROYECTOS */
+
 .portafolio{
     background: #ffffff;
-    font-size: 20px;
+    font-size: 60px;
     color:  #426895;
-    height: 700px;
-    margin: 60px;
-    padding: 80px 25px 50px 50px;
+    height: 100vh;
+    width: 98vw;
+    
+    padding: 80px 45px 80px 50px;
     background: linear-gradient(145deg, #ffffff, #f0f0f0);
 }
 .galeria-proyecto{
-    width: 50%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap: 60px;
-    margin-left: 25%;
+    align-items: center;
+    gap: 190px;
+    margin-left: 200px;
+    padding: 200px;
 }
 .imagen-proyecto{
-    width: 300px;
-    height: 200px;
-    margin-bottom: 10px;
+    width: 700px;
+    height: 500px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
