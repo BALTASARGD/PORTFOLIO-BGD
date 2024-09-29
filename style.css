@@ -142,7 +142,7 @@ h2 span:nth-child(12) { animation: lighting 1.5s 1.2s infinite; }
     cursor: pointer;
 }
 .inicio .fila .col button:hover{
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 .sombra{
@@ -200,7 +200,7 @@ h2 span:nth-child(12) { animation: lighting 1.5s 1.2s infinite; }
     color: #02387a;
     font-size: 100px;
     padding: 30px;
-    margin-top: 10px;
+    margin-top: 40px;
     display: flex;
     filter:drop-shadow(0em 30px 20px #0564a0);
     align-items: center;
@@ -384,10 +384,16 @@ footer{
     }
 }
 
-/* SECCION RESPONSIVE */
+
+/* SECCION RESPONSIVE /*
 
 
-/* @media screen and (max-width:800px){
+/*
+
+
+
+
+ @media screen and (max-width:800px){
     
     #inicio{
         max-width: 480px;
@@ -519,3 +525,4 @@ footer{
     #contacto .btn{
         margin-left: 45%;
     }
+}*/
