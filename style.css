@@ -54,15 +54,21 @@ html{
     color: #e87509;
 } 
 #icono-nav{
+    position: absolute;
+    right: 620px;
+    top: 90px;
+    padding: 10px;
     font-size: 60px;
-    margin-top: auto;
-    transition: 0.3s;
+    border-radius: 100%;
+    color: #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    opacity: 0;
 }
 #icono-nav:hover{
     color: #e87509;
-    font-size: 20px;
+    font-size: 50px;
     transform: scale(2);
 }
 .inicio .redes a{
@@ -74,7 +80,7 @@ html{
 }
 .inicio .redes a:hover{
     color: #e87509;
-    font-size: 20px;
+    font-size: 50px;
     transform: scale(2);
 }
 .inicio .fila{
@@ -385,14 +391,24 @@ footer{
 }
 
 
-/* SECCION RESPONSIVE /*
+/* SECCION RESPONSIVE ADAPTABLE A DISPOSITIVOS  MOVILES*/
 
+
+@media (max-width: 768px) {
+    .inicio .fila .col h2 span {
+        font-size: 100px;
+        letter-spacing: normal;
+    }
+    .contenedor-intereses div {
+        font-size: 60px;
+    }
+    .inicio .fila {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /*
-
-
-
-
  @media screen and (max-width:800px){
     
     #inicio{
